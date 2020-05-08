@@ -10,9 +10,13 @@
 		CB6DF4CC23E4D8C800465158 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CB23E4D8C800465158 /* AppDelegate.swift */; };
 		CB6DF4CE23E4D8C800465158 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CD23E4D8C800465158 /* SceneDelegate.swift */; };
 		CB6DF4D023E4D8C800465158 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF4CF23E4D8C800465158 /* ViewController.swift */; };
-		CB6DF4D323E4D8C800465158 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4D123E4D8C800465158 /* Main.storyboard */; };
 		CB6DF4D523E4D8CA00465158 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4D423E4D8CA00465158 /* Assets.xcassets */; };
 		CB6DF4D823E4D8CA00465158 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4D623E4D8CA00465158 /* LaunchScreen.storyboard */; };
+		CB6DF4E023E4D8DB00465158 /* Main.storyboardc in Resources */ = {isa = PBXBuildFile; fileRef = CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */; };
+		CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */; };
+		CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56123E9FAD900465158 /* AboutWrap.swift */; };
+		CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */; };
+		CB6DF56E23EB690300465158 /* StringerAngleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,10 +24,14 @@
 		CB6DF4CB23E4D8C800465158 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CB6DF4CD23E4D8C800465158 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CB6DF4CF23E4D8C800465158 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		CB6DF4D223E4D8C800465158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CB6DF4D423E4D8CA00465158 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CB6DF4D723E4D8CA00465158 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CB6DF4D923E4D8CA00465158 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.storyboardc; path = Main.storyboardc; sourceTree = "<group>"; };
+		CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FineHomeBuilding.swift; sourceTree = "<group>"; };
+		CB6DF56123E9FAD900465158 /* AboutWrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutWrap.swift; sourceTree = "<group>"; };
+		CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepCalculatorViewController.swift; sourceTree = "<group>"; };
+		CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringerAngleViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,11 +64,15 @@
 		CB6DF4CA23E4D8C800465158 /* WRAP-Iowa Ramp Design Aid */ = {
 			isa = PBXGroup;
 			children = (
+				CB6DF4DF23E4D8DB00465158 /* Main.storyboardc */,
+				CB6DF4CF23E4D8C800465158 /* ViewController.swift */,
+				CB6DF56B23EB689200465158 /* StepCalculatorViewController.swift */,
+				CB6DF56D23EB690300465158 /* StringerAngleViewController.swift */,
+				CB6DF55F23E9FAC000465158 /* FineHomeBuilding.swift */,
+				CB6DF56123E9FAD900465158 /* AboutWrap.swift */,
+				CB6DF4D423E4D8CA00465158 /* Assets.xcassets */,
 				CB6DF4CB23E4D8C800465158 /* AppDelegate.swift */,
 				CB6DF4CD23E4D8C800465158 /* SceneDelegate.swift */,
-				CB6DF4CF23E4D8C800465158 /* ViewController.swift */,
-				CB6DF4D123E4D8C800465158 /* Main.storyboard */,
-				CB6DF4D423E4D8CA00465158 /* Assets.xcassets */,
 				CB6DF4D623E4D8CA00465158 /* LaunchScreen.storyboard */,
 				CB6DF4D923E4D8CA00465158 /* Info.plist */,
 			);
@@ -127,7 +139,7 @@
 			files = (
 				CB6DF4D823E4D8CA00465158 /* LaunchScreen.storyboard in Resources */,
 				CB6DF4D523E4D8CA00465158 /* Assets.xcassets in Resources */,
-				CB6DF4D323E4D8C800465158 /* Main.storyboard in Resources */,
+				CB6DF4E023E4D8DB00465158 /* Main.storyboardc in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,7 +151,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				CB6DF4D023E4D8C800465158 /* ViewController.swift in Sources */,
+				CB6DF56E23EB690300465158 /* StringerAngleViewController.swift in Sources */,
+				CB6DF56223E9FAD900465158 /* AboutWrap.swift in Sources */,
 				CB6DF4CC23E4D8C800465158 /* AppDelegate.swift in Sources */,
+				CB6DF56023E9FAC000465158 /* FineHomeBuilding.swift in Sources */,
+				CB6DF56C23EB689200465158 /* StepCalculatorViewController.swift in Sources */,
 				CB6DF4CE23E4D8C800465158 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -147,14 +163,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		CB6DF4D123E4D8C800465158 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				CB6DF4D223E4D8C800465158 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		CB6DF4D623E4D8CA00465158 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -285,13 +293,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R939VJ5M87;
+				DEVELOPMENT_TEAM = 9U5DM9D485;
 				INFOPLIST_FILE = "WRAP-Iowa Ramp Design Aid/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.GivingAHandUp.WRAP-Iowa-Ramp-Design-Aid";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WRAP-Iowa-Ramp-Design-Aid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -303,13 +311,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = R939VJ5M87;
+				DEVELOPMENT_TEAM = 9U5DM9D485;
 				INFOPLIST_FILE = "WRAP-Iowa Ramp Design Aid/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "com.GivingAHandUp.WRAP-Iowa-Ramp-Design-Aid";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.WRAP-Iowa-Ramp-Design-Aid";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
