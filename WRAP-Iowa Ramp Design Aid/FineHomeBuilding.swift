@@ -20,7 +20,7 @@ class FineHomeBuilding: UIViewController {
     }
     
     @IBAction func LaunchFineHome(_ sender: UIButton) {
-        UIApplication.shared.open(URL(string: "https://www.finehomebuilding.com/2016/08/04/2-rules-comfortable-stairs")! as URL, options: [:],   completionHandler: nil)
+        UIApplication.shared.open(URL(string: "https://www.finehomebuilding.com/project-guides/framing/2-rules-comfortable-stairs")! as URL, options: [:],   completionHandler: nil)
         //
     }
     

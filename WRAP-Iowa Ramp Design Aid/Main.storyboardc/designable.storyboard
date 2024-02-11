@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16096" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLN-wd-qdy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="22505" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="aLN-wd-qdy">
     <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22504"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -13,7 +15,7 @@
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="aLN-wd-qdy" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="dH6-IL-lnB">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -34,7 +36,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="HomeScroll" translatesAutoresizingMaskIntoConstraints="NO" id="nF4-BC-ckZ" userLabel="HomeScrollView">
-                                <rect key="frame" x="0.0" y="44" width="375" height="956"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" restorationIdentifier="HomeContent" translatesAutoresizingMaskIntoConstraints="NO" id="1fH-ae-2MX" userLabel="ContentHomeView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="956"/>
@@ -52,7 +54,7 @@
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="HomeText" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wW4-yf-CRV" userLabel="TextHomeView">
                                                 <rect key="frame" x="22" y="173" width="330" height="388"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
@@ -65,27 +67,27 @@
 
 WRAP Iowa is not liable for any use of these aids for any purpose other than the design and construction of wheelchair ramps that are designed and constructed by WRAP Iowa.
 Use the buttons below to select the functionality that you wish to exercise or view.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <stackView opaque="NO" contentMode="scaleToFill" restorationIdentifier="HomeStack" axis="vertical" alignment="center" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="j4z-mF-paA" userLabel="StackHomeView">
                                                 <rect key="frame" x="57" y="583" width="261" height="204"/>
                                                 <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkW-TL-6rS">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qkW-TL-6rS">
                                                         <rect key="frame" x="20.5" y="0.0" width="220" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <state key="normal" title="  Calculate Riser Heights -&gt;  ">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                         </state>
                                                         <connections>
-                                                            <segue destination="irV-ss-tz5" kind="show" id="OKA-pY-EEt"/>
+                                                            <segue destination="NKg-zI-8aF" kind="show" id="0d7-KS-NYJ"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a73-Ik-H3s">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="a73-Ik-H3s">
                                                         <rect key="frame" x="0.0" y="56" width="261" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <state key="normal" title="  Calculate Stringer Cut Angle -&gt;  ">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -94,9 +96,9 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                             <segue destination="IiD-mD-6Ai" kind="show" id="3ri-ba-fFM"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbG-6E-8c8">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tbG-6E-8c8">
                                                         <rect key="frame" x="40.5" y="112" width="180" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <state key="normal" title="  Stair Building Tips -&gt;  ">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -105,9 +107,9 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                             <segue destination="nka-1X-BDx" kind="show" id="6QF-kA-ZT7"/>
                                                         </connections>
                                                     </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-BA-e44">
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8Th-BA-e44">
                                                         <rect key="frame" x="36.5" y="168" width="188" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <state key="normal" title="  About WRAP Iowa -&gt;   ">
                                                             <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -125,7 +127,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                 </constraints>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstItem="j4z-mF-paA" firstAttribute="top" secondItem="wW4-yf-CRV" secondAttribute="bottom" constant="22" id="6NP-zW-hht"/>
                                             <constraint firstItem="wW4-yf-CRV" firstAttribute="leading" secondItem="1fH-ae-2MX" secondAttribute="leading" constant="22" id="9jd-Aq-HA2"/>
@@ -150,14 +152,14 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 <viewLayoutGuide key="frameLayoutGuide" id="E7t-84-dpy"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="el4-B6-6td"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="nF4-BC-ckZ" firstAttribute="leading" secondItem="el4-B6-6td" secondAttribute="leading" id="XDn-Vv-mdU"/>
                             <constraint firstItem="nF4-BC-ckZ" firstAttribute="top" secondItem="el4-B6-6td" secondAttribute="top" id="dCq-h6-tLc"/>
                             <constraint firstItem="el4-B6-6td" firstAttribute="trailing" secondItem="nF4-BC-ckZ" secondAttribute="trailing" id="gJb-52-leZ"/>
                             <constraint firstItem="el4-B6-6td" firstAttribute="bottom" secondItem="nF4-BC-ckZ" secondAttribute="bottom" id="r2r-hY-29b"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="el4-B6-6td"/>
                     </view>
                     <navigationItem key="navigationItem" id="ICU-XW-9fi"/>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -166,324 +168,16 @@ Use the buttons below to select the functionality that you wish to exercise or 
             </objects>
             <point key="canvasLocation" x="-1900" y="-3264.4677661169417"/>
         </scene>
-        <!--Stair Riser Calculator-->
-        <scene sceneID="ho4-HQ-QcI">
-            <objects>
-                <viewController title="Stair Riser Calculator" id="irV-ss-tz5" customClass="StepCalculatorViewController" customModule="WRAP_Iowa_Ramp_Design_Aid" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="nVv-6p-WPn">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="980"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fpd-SI-y4z" userLabel="Stair Riser Scroll View">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="980"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dhV-x2-VoV" userLabel="Stair Riser Content View">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="1000"/>
-                                        <subviews>
-                                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XBU-zK-EZz">
-                                                <rect key="frame" x="21" y="157" width="333" height="352"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                                <accessibility key="accessibilityConfiguration">
-                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                    <bool key="isElement" value="NO"/>
-                                                </accessibility>
-                                                <string key="text">This design aid is intended for use by WRAP Iowa approved wheelchair ramps where the decision has been made to facilitate accessibility through temporary steps. By indicating the floor-to-floor height, the app will calculate the minimum number of risers, riser heights and tread depths. The user may override the # of risers by entering a value in the override area. Use at your own risk.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
-                                            </textView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="9" translatesAutoresizingMaskIntoConstraints="NO" id="HQV-LZ-Xnb" userLabel="Stack View 0">
-                                                <rect key="frame" x="30" y="466" width="315" height="36"/>
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="avd-C2-2b6">
-                                                        <rect key="frame" x="0.0" y="0.0" width="222" height="36"/>
-                                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <state key="normal" title=" Press to see Override Table ">
-                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                        </state>
-                                                        <connections>
-                                                            <segue destination="Kkr-2M-v4u" kind="showDetail" id="12h-L3-N2u"/>
-                                                        </connections>
-                                                    </button>
-                                                    <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="749" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="OX9-er-9ZO">
-                                                        <rect key="frame" x="231" y="0.0" width="84" height="36"/>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                    </textField>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="hE9-nA-2gg" userLabel="Stack View1">
-                                                <rect key="frame" x="25" y="532" width="309" height="41"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Total Height in Inches" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0Q-Tp-sFd">
-                                                        <rect key="frame" x="0.0" y="0.0" width="148" height="41"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="FirstRiserHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="34" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="QA7-cU-V8h" userLabel="FirstRiserHeightEntry">
-                                                        <rect key="frame" x="150" y="3.5" width="60" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="60" id="H3d-E6-2Pu"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                        <connections>
-                                                            <outlet property="delegate" destination="irV-ss-tz5" id="hzD-zL-WtT"/>
-                                                        </connections>
-                                                    </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="SecondRiserHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RnV-s6-bKX" userLabel="SecondRiserHeightEntry">
-                                                        <rect key="frame" x="212" y="3.5" width="50" height="34"/>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="50" id="F8m-em-97G"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
-                                                    </textField>
-                                                    <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="/16" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="ST2-4p-Z5C">
-                                                        <rect key="frame" x="264" y="3.5" width="45" height="34"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                        </accessibility>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="45" id="oXW-MF-TzH"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <textInputTraits key="textInputTraits"/>
-                                                    </textField>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="20" translatesAutoresizingMaskIntoConstraints="NO" id="u4R-Tu-mTM" userLabel="Stack View2">
-                                                <rect key="frame" x="21" y="663" width="324" height="41"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Suggested # of Risers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="QgI-L3-2RO">
-                                                        <rect key="frame" x="0.0" y="0.0" width="94.5" height="41"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc#ofRisers" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PaS-ki-KdY" userLabel="Calc#ofRisers">
-                                                        <rect key="frame" x="114.5" y="0.0" width="95" height="41"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riser Min 4&quot; / Max 7 3/4&quot;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mkB-zS-BxK">
-                                                        <rect key="frame" x="229.5" y="0.0" width="94.5" height="41"/>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="14"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="yRf-9W-p4Y" userLabel="Stack View3">
-                                                <rect key="frame" x="21" y="731" width="324" height="23.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Lowest Level Riser Height" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CTx-QO-71S">
-                                                        <rect key="frame" x="0.0" y="0.0" width="226" height="23.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc-LL-RiserHeight" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2PB-jC-PKe" userLabel="Calc-LL-RiserHeight">
-                                                        <rect key="frame" x="244" y="0.0" width="80" height="23.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="vhq-Z9-F6C"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="mDw-eZ-BUS" userLabel="Stack View5">
-                                                <rect key="frame" x="17" y="849.5" width="328" height="20.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2x12 Length Required" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Xb-XZ-6Je">
-                                                        <rect key="frame" x="0.0" y="0.0" width="225" height="20.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc2x10Length" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="fcK-s8-soC" userLabel="Calc2x10Length">
-                                                        <rect key="frame" x="249" y="0.0" width="79" height="20.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="79" id="akL-ep-Olp"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="12"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3oB-4i-KHn">
-                                                <rect key="frame" x="111.5" y="901" width="152" height="30"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <state key="normal" title="View Stairs Illustration">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <segue destination="GOO-B8-SnU" kind="show" id="3mR-8O-5sY"/>
-                                                </connections>
-                                            </button>
-                                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-256" translatesAutoresizingMaskIntoConstraints="NO" id="aZp-Ui-2rq">
-                                                <rect key="frame" x="59.5" y="20" width="256" height="117"/>
-                                                <accessibility key="accessibilityConfiguration">
-                                                    <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
-                                                </accessibility>
-                                            </imageView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q0i-p0-Lz9">
-                                                <rect key="frame" x="21" y="599" width="100" height="36"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <constraints>
-                                                    <constraint firstAttribute="width" constant="100" id="SLP-yC-JAp"/>
-                                                </constraints>
-                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                <state key="normal" title="Update">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="StairRiserButton:" destination="irV-ss-tz5" eventType="touchUpInside" id="JtF-Ts-hiJ"/>
-                                                </connections>
-                                            </button>
-                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="1kx-AZ-3Vf" userLabel="Stack View4">
-                                                <rect key="frame" x="17" y="800.5" width="328" height="20.5"/>
-                                                <subviews>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remaining Riser Heights" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fo2-nI-XrE">
-                                                        <rect key="frame" x="0.0" y="0.0" width="230" height="20.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gau-JQ-F3s">
-                                                        <rect key="frame" x="248" y="0.0" width="80" height="20.5"/>
-                                                        <accessibility key="accessibilityConfiguration">
-                                                            <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
-                                                            <bool key="isElement" value="NO"/>
-                                                        </accessibility>
-                                                        <constraints>
-                                                            <constraint firstAttribute="width" constant="80" id="6C8-Os-qqi"/>
-                                                        </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                        <nil key="textColor"/>
-                                                        <nil key="highlightedColor"/>
-                                                    </label>
-                                                </subviews>
-                                            </stackView>
-                                        </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                        <constraints>
-                                            <constraint firstItem="1kx-AZ-3Vf" firstAttribute="top" secondItem="yRf-9W-p4Y" secondAttribute="bottom" constant="46" id="18y-aJ-iq3"/>
-                                            <constraint firstItem="u4R-Tu-mTM" firstAttribute="leading" secondItem="yRf-9W-p4Y" secondAttribute="leading" id="1CJ-ah-5Vp"/>
-                                            <constraint firstItem="hE9-nA-2gg" firstAttribute="top" secondItem="XBU-zK-EZz" secondAttribute="bottom" constant="23" id="3Nf-m6-5EN"/>
-                                            <constraint firstItem="aZp-Ui-2rq" firstAttribute="top" secondItem="dhV-x2-VoV" secondAttribute="top" constant="20" id="50l-im-lr9"/>
-                                            <constraint firstItem="yRf-9W-p4Y" firstAttribute="trailing" secondItem="mDw-eZ-BUS" secondAttribute="trailing" id="531-gb-S0x"/>
-                                            <constraint firstItem="1kx-AZ-3Vf" firstAttribute="leading" secondItem="mDw-eZ-BUS" secondAttribute="leading" id="5IS-Sx-Z4K"/>
-                                            <constraint firstItem="XBU-zK-EZz" firstAttribute="top" secondItem="aZp-Ui-2rq" secondAttribute="bottom" constant="20" id="6Mn-jf-kMr"/>
-                                            <constraint firstAttribute="trailing" secondItem="1kx-AZ-3Vf" secondAttribute="trailing" constant="30" id="8f4-iy-kWZ"/>
-                                            <constraint firstItem="XBU-zK-EZz" firstAttribute="leading" secondItem="q0i-p0-Lz9" secondAttribute="leading" id="9Tb-2l-LMH"/>
-                                            <constraint firstItem="u4R-Tu-mTM" firstAttribute="top" secondItem="q0i-p0-Lz9" secondAttribute="bottom" constant="28" id="9YL-AC-MCT"/>
-                                            <constraint firstItem="q0i-p0-Lz9" firstAttribute="top" secondItem="hE9-nA-2gg" secondAttribute="bottom" constant="26" id="A6i-Mf-EcC"/>
-                                            <constraint firstAttribute="trailing" secondItem="hE9-nA-2gg" secondAttribute="trailing" constant="41" id="Aj7-4v-Qwo"/>
-                                            <constraint firstAttribute="trailing" secondItem="HQV-LZ-Xnb" secondAttribute="trailing" constant="30" id="JZK-e3-EXi"/>
-                                            <constraint firstItem="u4R-Tu-mTM" firstAttribute="trailing" secondItem="yRf-9W-p4Y" secondAttribute="trailing" id="Jpb-GU-Juh"/>
-                                            <constraint firstItem="3oB-4i-KHn" firstAttribute="top" secondItem="mDw-eZ-BUS" secondAttribute="bottom" constant="31" id="K7p-bS-bAn"/>
-                                            <constraint firstItem="hE9-nA-2gg" firstAttribute="leading" secondItem="dhV-x2-VoV" secondAttribute="leading" constant="25" id="QLx-mK-LsM"/>
-                                            <constraint firstAttribute="bottom" secondItem="3oB-4i-KHn" secondAttribute="bottom" constant="69" id="R3O-Tg-p12"/>
-                                            <constraint firstItem="XBU-zK-EZz" firstAttribute="centerX" secondItem="3oB-4i-KHn" secondAttribute="centerX" id="Ufp-V8-Tpm"/>
-                                            <constraint firstItem="mDw-eZ-BUS" firstAttribute="top" secondItem="1kx-AZ-3Vf" secondAttribute="bottom" constant="28.5" id="W15-KF-SLE"/>
-                                            <constraint firstItem="yRf-9W-p4Y" firstAttribute="top" secondItem="u4R-Tu-mTM" secondAttribute="bottom" constant="27" id="YSs-tU-2eK"/>
-                                            <constraint firstItem="1kx-AZ-3Vf" firstAttribute="leading" secondItem="dhV-x2-VoV" secondAttribute="leading" constant="17" id="b1e-el-2iQ"/>
-                                            <constraint firstAttribute="height" constant="1000" id="fny-F7-h1c"/>
-                                            <constraint firstAttribute="trailing" secondItem="u4R-Tu-mTM" secondAttribute="trailing" constant="30" id="iAP-i4-9oD"/>
-                                            <constraint firstItem="HQV-LZ-Xnb" firstAttribute="leading" secondItem="dhV-x2-VoV" secondAttribute="leading" constant="30" id="ikV-vE-Bb6"/>
-                                            <constraint firstItem="aZp-Ui-2rq" firstAttribute="centerX" secondItem="dhV-x2-VoV" secondAttribute="centerX" id="jHY-c5-qhx"/>
-                                            <constraint firstItem="XBU-zK-EZz" firstAttribute="leading" secondItem="dhV-x2-VoV" secondAttribute="leading" constant="21" id="koA-g6-byh"/>
-                                            <constraint firstItem="aZp-Ui-2rq" firstAttribute="centerX" secondItem="XBU-zK-EZz" secondAttribute="centerX" id="qwa-vv-pIP"/>
-                                            <constraint firstItem="q0i-p0-Lz9" firstAttribute="leading" secondItem="u4R-Tu-mTM" secondAttribute="leading" id="rXj-Ek-9Ea"/>
-                                            <constraint firstItem="hE9-nA-2gg" firstAttribute="top" secondItem="HQV-LZ-Xnb" secondAttribute="bottom" constant="30" id="x1P-Tw-bgq"/>
-                                        </constraints>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstAttribute="bottom" secondItem="dhV-x2-VoV" secondAttribute="bottom" constant="-44" id="3rs-bE-3n3"/>
-                                    <constraint firstItem="dhV-x2-VoV" firstAttribute="centerX" secondItem="Fpd-SI-y4z" secondAttribute="centerX" id="5UJ-Zd-LnQ"/>
-                                    <constraint firstAttribute="trailing" secondItem="dhV-x2-VoV" secondAttribute="trailing" id="JxP-OM-UHz"/>
-                                    <constraint firstItem="dhV-x2-VoV" firstAttribute="top" secondItem="gBF-0c-rQq" secondAttribute="top" id="b9D-em-XBi"/>
-                                    <constraint firstItem="dhV-x2-VoV" firstAttribute="leading" secondItem="Fpd-SI-y4z" secondAttribute="leading" id="oiN-2c-SHg"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="gBF-0c-rQq"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="For-Un-Q1u"/>
-                            </scrollView>
-                        </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <constraints>
-                            <constraint firstItem="Fpd-SI-y4z" firstAttribute="leading" secondItem="nVv-6p-WPn" secondAttribute="leading" id="D91-2o-caI"/>
-                            <constraint firstItem="Fpd-SI-y4z" firstAttribute="bottom" secondItem="bwe-TU-aHt" secondAttribute="bottom" id="G4a-n1-fUn"/>
-                            <constraint firstItem="Fpd-SI-y4z" firstAttribute="top" secondItem="bwe-TU-aHt" secondAttribute="top" id="eLb-F4-UrF"/>
-                            <constraint firstAttribute="trailing" secondItem="Fpd-SI-y4z" secondAttribute="trailing" id="jdk-Em-mD1"/>
-                        </constraints>
-                        <viewLayoutGuide key="safeArea" id="bwe-TU-aHt"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="oa0-8e-Hlf"/>
-                    <size key="freeformSize" width="375" height="1000"/>
-                    <connections>
-                        <outlet property="LowestRiserHgt" destination="2PB-jC-PKe" id="0si-aA-sGD"/>
-                        <outlet property="RemainingRiserHgt" destination="Gau-JQ-F3s" id="s5F-yg-nfJ"/>
-                        <outlet property="RiserScrollView" destination="Fpd-SI-y4z" id="xMS-mf-Hhx"/>
-                        <outlet property="StepHgtNumerator" destination="RnV-s6-bKX" id="uSC-Oe-QzU"/>
-                        <outlet property="StepHgtWhole" destination="QA7-cU-V8h" id="5dw-zi-aaf"/>
-                        <outlet property="TotalNumRisers" destination="PaS-ki-KdY" id="JlK-6I-5Tc"/>
-                        <outlet property="TwoxTenNeeded" destination="fcK-s8-soC" id="lSZ-qp-ATh"/>
-                        <outlet property="manualOverrideRisers" destination="OX9-er-9ZO" id="BdF-0K-Tir"/>
-                    </connections>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="gOp-bE-Hjk" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-876" y="-3976"/>
-        </scene>
         <!--Stair Riser Illustration-->
         <scene sceneID="0m9-fc-uFp">
             <objects>
                 <viewController title="Stair Riser Illustration" id="GOO-B8-SnU" customClass="StairRisers" customModule="WRAP_Iowa_Ramp_Design_Aid" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="fOC-B2-3tp">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stair Riser Illustration" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vB8-Lp-tu6">
-                                <rect key="frame" x="67" y="574.5" width="260" height="23.5"/>
+                                <rect key="frame" x="67" y="594.5" width="260" height="23.5"/>
                                 <constraints>
                                     <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="260" id="hUU-Ll-Hub"/>
                                 </constraints>
@@ -492,10 +186,10 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="50d-o0-eHY" userLabel="StairRiserScrollView">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="511.5"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="467.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stair Riser Illustration" translatesAutoresizingMaskIntoConstraints="NO" id="d42-b4-ssP">
-                                        <rect key="frame" x="0.0" y="37.5" width="845" height="432.5"/>
+                                        <rect key="frame" x="0.0" y="37.5" width="845" height="395.5"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                         </accessibility>
@@ -519,7 +213,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 <viewLayoutGuide key="frameLayoutGuide" id="CCQ-0r-wWz"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="fUq-gL-5em"/>
                         <constraints>
                             <constraint firstItem="fUq-gL-5em" firstAttribute="bottom" secondItem="vB8-Lp-tu6" secondAttribute="bottom" constant="49" id="COX-R7-VuS"/>
                             <constraint firstItem="vB8-Lp-tu6" firstAttribute="top" secondItem="50d-o0-eHY" secondAttribute="bottom" constant="63" id="OGv-ZC-8ep"/>
@@ -528,7 +222,6 @@ Use the buttons below to select the functionality that you wish to exercise or 
                             <constraint firstItem="50d-o0-eHY" firstAttribute="leading" secondItem="fUq-gL-5em" secondAttribute="leading" id="pFq-zv-cDH"/>
                             <constraint firstItem="50d-o0-eHY" firstAttribute="trailing" secondItem="fUq-gL-5em" secondAttribute="trailing" id="qNg-Pw-yhs"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="fUq-gL-5em"/>
                     </view>
                     <navigationItem key="navigationItem" id="1gs-ap-eGr"/>
                 </viewController>
@@ -559,10 +252,10 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 <nil key="highlightedColor"/>
                             </label>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="DPR-Xu-MIP" userLabel="StringerImageScrollView">
-                                <rect key="frame" x="0.0" y="44" width="375" height="492"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="472"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Stringer Cut Angle Illustration" translatesAutoresizingMaskIntoConstraints="NO" id="m4E-9D-kRj">
-                                        <rect key="frame" x="0.0" y="206" width="445" height="113"/>
+                                        <rect key="frame" x="0.0" y="206" width="445" height="108.5"/>
                                         <accessibility key="accessibilityConfiguration">
                                             <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
                                         </accessibility>
@@ -585,7 +278,8 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 </userDefinedRuntimeAttributes>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="kxo-xh-Adv"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="r2Y-pN-cab" firstAttribute="centerX" secondItem="qRA-oo-NKg" secondAttribute="centerX" id="EFq-J2-mIP"/>
                             <constraint firstItem="kxo-xh-Adv" firstAttribute="bottom" secondItem="r2Y-pN-cab" secondAttribute="bottom" constant="77" id="K03-yn-SiP"/>
@@ -596,7 +290,6 @@ Use the buttons below to select the functionality that you wish to exercise or 
                             <constraint firstItem="r2Y-pN-cab" firstAttribute="top" secondItem="DPR-Xu-MIP" secondAttribute="bottom" constant="30" id="gg7-8Y-XRa"/>
                             <constraint firstItem="DPR-Xu-MIP" firstAttribute="top" secondItem="kxo-xh-Adv" secondAttribute="top" id="kaO-CY-gm7"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="kxo-xh-Adv"/>
                     </view>
                     <navigationItem key="navigationItem" id="dCk-Sl-f8d"/>
                 </viewController>
@@ -609,49 +302,47 @@ Use the buttons below to select the functionality that you wish to exercise or 
             <objects>
                 <viewController title="RiserOverrideViewController" id="Kkr-2M-v4u" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="b6L-CP-Wta">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="KyQ-pO-n3w">
-                                <rect key="frame" x="52" y="13" width="271" height="621.5"/>
+                                <rect key="frame" x="54" y="57" width="267" height="617.5"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" image="Icon-256" translatesAutoresizingMaskIntoConstraints="NO" id="NaQ-pl-wM0">
-                                        <rect key="frame" x="0.0" y="0.0" width="271" height="117"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="267" height="117"/>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" verticalCompressionResistancePriority="751" text="Risers Manual Override Table" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kf2-JH-kpl">
-                                        <rect key="frame" x="0.0" y="128" width="271" height="27.5"/>
-                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="20"/>
+                                        <rect key="frame" x="0.0" y="128" width="267" height="23.5"/>
+                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                         <nil key="textColor"/>
                                         <nil key="highlightedColor"/>
                                     </label>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Override Illustration" translatesAutoresizingMaskIntoConstraints="NO" id="IYH-eb-05q">
-                                        <rect key="frame" x="0.0" y="166.5" width="271" height="408"/>
+                                        <rect key="frame" x="0.0" y="162.5" width="267" height="408"/>
                                     </imageView>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jef-hR-oaK">
-                                        <rect key="frame" x="0.0" y="585.5" width="271" height="36"/>
-                                        <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jef-hR-oaK">
+                                        <rect key="frame" x="0.0" y="581.5" width="267" height="36"/>
+                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
                                         <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                         <state key="normal" title="Return to Riser Calculations">
                                             <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
-                                        <connections>
-                                            <segue destination="irV-ss-tz5" kind="showDetail" id="3O1-pH-dT0"/>
-                                        </connections>
                                     </button>
                                 </subviews>
                             </stackView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="PqL-4V-QIe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="KyQ-pO-n3w" firstAttribute="centerY" secondItem="PqL-4V-QIe" secondAttribute="centerY" id="5Il-c1-CfV"/>
                             <constraint firstItem="KyQ-pO-n3w" firstAttribute="centerX" secondItem="PqL-4V-QIe" secondAttribute="centerX" id="RIb-dH-xEc"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="PqL-4V-QIe"/>
                     </view>
+                    <navigationItem key="navigationItem" id="DzM-h7-9tO"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="WyD-We-oIP" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-820" y="-3005"/>
+            <point key="canvasLocation" x="-956" y="-3311"/>
         </scene>
         <!--Stringer Cut Angle Calculator-->
         <scene sceneID="GLw-tH-r3S">
@@ -662,7 +353,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="StringerScroll" translatesAutoresizingMaskIntoConstraints="NO" id="ciF-4I-e9c" userLabel="ScrollStringerView">
-                                <rect key="frame" x="0.0" y="57" width="375" height="943"/>
+                                <rect key="frame" x="0.0" y="77" width="375" height="923"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" restorationIdentifier="StringerContent" translatesAutoresizingMaskIntoConstraints="NO" id="adJ-Sq-cOb" userLabel="ContentStringerView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="953"/>
@@ -679,18 +370,18 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                 </constraints>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yrJ-eW-JMS">
-                                                <rect key="frame" x="20" y="180" width="335" height="202"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <rect key="frame" x="20" y="180" width="335" height="173"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                 </accessibility>
                                                 <string key="text">This design aid is intended for use by WRAP Iowa approved wheelchair ramps to determine the angle at which stringer ends need to be cut based on the length of the stringer as well as the difference in height from the ground from one end of the stringer to the other end. Use at your own risk.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="7" translatesAutoresizingMaskIntoConstraints="NO" id="uFg-4a-Eeg" userLabel="Stack View1">
-                                                <rect key="frame" x="20" y="399" width="316" height="80"/>
+                                                <rect key="frame" x="20" y="370" width="316" height="80"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Total Stringer Length (Inches)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="g9y-EG-KZD">
                                                         <rect key="frame" x="0.0" y="0.0" width="150" height="80"/>
@@ -698,7 +389,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
                                                         </accessibility>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
@@ -729,7 +420,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="35" id="n25-tZ-aSC"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
@@ -739,10 +430,10 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                 </constraints>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="27" translatesAutoresizingMaskIntoConstraints="NO" id="U9B-hv-q7o" userLabel="Stack View3">
-                                                <rect key="frame" x="63.5" y="667" width="261.5" height="80"/>
+                                                <rect key="frame" x="62" y="667" width="263" height="80"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cut Angle (Degrees)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="X5W-jO-MN4">
-                                                        <rect key="frame" x="0.0" y="0.0" width="116.5" height="80"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="118" height="80"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
@@ -752,7 +443,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="CalcCutAngle" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xze-9G-uLD" userLabel="CalcCutAngle">
-                                                        <rect key="frame" x="143.5" y="0.0" width="118" height="80"/>
+                                                        <rect key="frame" x="145" y="0.0" width="118" height="80"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
@@ -766,9 +457,9 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9h-nV-x1A">
-                                                <rect key="frame" x="63.5" y="601" width="95" height="44"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="t9h-nV-x1A">
+                                                <rect key="frame" x="62" y="601" width="95" height="44"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="width" constant="95" id="7ur-eW-Tux"/>
                                                     <constraint firstAttribute="height" constant="44" id="VbV-No-aO8"/>
@@ -782,10 +473,10 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" spacing="14" translatesAutoresizingMaskIntoConstraints="NO" id="fHn-md-Rss" userLabel="Stack View4">
-                                                <rect key="frame" x="63.5" y="771" width="247.5" height="50"/>
+                                                <rect key="frame" x="62" y="771" width="249" height="50"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total Run Length (Inches" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pkf-EV-qpK">
-                                                        <rect key="frame" x="0.0" y="0.0" width="133.5" height="50"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="135" height="50"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
@@ -795,7 +486,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="CalcRunLength" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLv-u8-Dhf" userLabel="CalcRunLength">
-                                                        <rect key="frame" x="147.5" y="0.0" width="100" height="50"/>
+                                                        <rect key="frame" x="149" y="0.0" width="100" height="50"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
@@ -809,9 +500,9 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                     </label>
                                                 </subviews>
                                             </stackView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-Ka-V0L">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hYH-Ka-V0L">
                                                 <rect key="frame" x="37.5" y="861" width="300" height="40"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="40" id="vzS-8w-mC7"/>
                                                 </constraints>
@@ -823,10 +514,10 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                 </connections>
                                             </button>
                                             <stackView opaque="NO" contentMode="scaleToFill" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="N7M-wa-AH2" userLabel="Stack View2">
-                                                <rect key="frame" x="20" y="503" width="325" height="41"/>
+                                                <rect key="frame" x="20" y="474" width="325" height="70"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter Total End-To-End Height (Inches)" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Le1-tJ-lmb">
-                                                        <rect key="frame" x="0.0" y="0.0" width="154" height="41"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="154" height="70"/>
                                                         <accessibility key="accessibilityConfiguration">
                                                             <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                             <bool key="isElement" value="NO"/>
@@ -834,12 +525,12 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="154" id="RnT-Gl-ylA"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <nil key="textColor"/>
                                                         <nil key="highlightedColor"/>
                                                     </label>
                                                     <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="StringerHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="28" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="EqT-Hf-mBe" userLabel="StringerHeightEntry">
-                                                        <rect key="frame" x="162" y="3.5" width="60" height="34"/>
+                                                        <rect key="frame" x="162" y="18" width="60" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="60" id="8Ae-SK-hiO"/>
                                                             <constraint firstAttribute="width" constant="60" id="dmm-O8-dpe"/>
@@ -848,25 +539,24 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="3" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tuH-Yj-NQ1">
-                                                        <rect key="frame" x="230" y="3.5" width="50" height="34"/>
+                                                        <rect key="frame" x="230" y="18" width="50" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="50" id="P1L-y6-dsH"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                     </textField>
                                                     <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="/16" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xAq-WN-OcP">
-                                                        <rect key="frame" x="288" y="3.5" width="37" height="34"/>
+                                                        <rect key="frame" x="288" y="18" width="37" height="34"/>
                                                         <constraints>
                                                             <constraint firstAttribute="width" constant="37" id="b5Q-vE-pNZ"/>
                                                         </constraints>
-                                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                         <textInputTraits key="textInputTraits"/>
                                                     </textField>
                                                 </subviews>
                                             </stackView>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                                         <constraints>
                                             <constraint firstItem="yrJ-eW-JMS" firstAttribute="centerX" secondItem="hYH-Ka-V0L" secondAttribute="centerX" id="2gb-zK-sOd"/>
                                             <constraint firstItem="fHn-md-Rss" firstAttribute="top" secondItem="adJ-Sq-cOb" secondAttribute="top" constant="771" id="2jJ-ke-Oxe"/>
@@ -908,14 +598,14 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                 <viewLayoutGuide key="frameLayoutGuide" id="Gyb-fj-eE9"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="0ki-DX-5z3"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="ciF-4I-e9c" firstAttribute="bottom" secondItem="0ki-DX-5z3" secondAttribute="bottom" id="6Mu-ll-inB"/>
                             <constraint firstItem="ciF-4I-e9c" firstAttribute="top" secondItem="0ki-DX-5z3" secondAttribute="top" constant="13" id="8f7-3M-8rv"/>
                             <constraint firstItem="ciF-4I-e9c" firstAttribute="leading" secondItem="FPq-Ql-VuU" secondAttribute="leading" id="KrD-f6-U6H"/>
                             <constraint firstAttribute="trailing" secondItem="ciF-4I-e9c" secondAttribute="trailing" id="Ygv-x8-hza"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0ki-DX-5z3"/>
                     </view>
                     <navigationItem key="navigationItem" id="iKY-Op-jR2"/>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -942,38 +632,27 @@ Use the buttons below to select the functionality that you wish to exercise or 
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="ScrollFine" delaysContentTouches="NO" translatesAutoresizingMaskIntoConstraints="NO" id="OKr-WA-qTX" userLabel="ScrollFineView">
-                                <rect key="frame" x="0.0" y="44" width="375" height="956"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" restorationIdentifier="ContentFine" translatesAutoresizingMaskIntoConstraints="NO" id="zYE-cM-UDz" userLabel="ContentFineView">
-                                        <rect key="frame" x="0.0" y="0.0" width="375" height="956"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="936"/>
                                         <subviews>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="anB-tI-NZk">
-                                                <rect key="frame" x="25" y="183" width="325" height="179"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <rect key="frame" x="25" y="183" width="311" height="331"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
                                                 </accessibility>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="179" id="6k3-rc-hN7"/>
+                                                    <constraint firstAttribute="height" constant="331" id="6k3-rc-hN7"/>
                                                 </constraints>
-                                                <string key="text">Fine Home Building magazine has an excellent article that explains how the use ot two formulas will result in the optimal comfort values for riser height and tread depth. This artricle is extendable to every stair application. 
-Following is a link to the article.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <string key="text">Fine Home Building magazine has an excellent article that explains how the use two formulas will result in the optimal comfort values for riser height and tread depth. This artricle is extendable to every stair application. 
+Following is a link to the article.  Rule 1 states: Rise + Run = 18 Rule 2 states: 2*Rise + Run = 25  Note that the magazine has a limit on the number of free articles.</string>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQC-cq-j3h">
-                                                <rect key="frame" x="32" y="407" width="311" height="36"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
-                                                <state key="normal" title="  Click to see the Stairs Article -&gt;  ">
-                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                </state>
-                                                <connections>
-                                                    <action selector="LaunchFineHome:" destination="nka-1X-BDx" eventType="touchUpInside" id="29A-M0-9eX"/>
-                                                </connections>
-                                            </button>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-256" translatesAutoresizingMaskIntoConstraints="NO" id="KPj-2P-uRY">
                                                 <rect key="frame" x="59" y="35" width="256" height="117"/>
                                                 <accessibility key="accessibilityConfiguration">
@@ -985,47 +664,64 @@ Following is a link to the article.</string>
                                                     <constraint firstAttribute="height" constant="117" id="dED-5X-xEd"/>
                                                 </constraints>
                                             </imageView>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bQC-cq-j3h">
+                                                <rect key="frame" x="25" y="533" width="311" height="77"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                <state key="normal" title="  Click to see the Stairs Article -&gt;  ">
+                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="LaunchFineHome:" destination="nka-1X-BDx" eventType="touchUpInside" id="29A-M0-9eX"/>
+                                                </connections>
+                                            </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
-                                            <constraint firstItem="bQC-cq-j3h" firstAttribute="leading" secondItem="zYE-cM-UDz" secondAttribute="leading" constant="32" id="1TU-hi-gqn"/>
+                                            <constraint firstItem="bQC-cq-j3h" firstAttribute="leading" secondItem="zYE-cM-UDz" secondAttribute="leading" constant="25" id="1TU-hi-gqn"/>
                                             <constraint firstItem="anB-tI-NZk" firstAttribute="top" secondItem="KPj-2P-uRY" secondAttribute="bottom" constant="31" id="5Hm-Tg-GSz"/>
                                             <constraint firstItem="bQC-cq-j3h" firstAttribute="centerX" secondItem="anB-tI-NZk" secondAttribute="centerX" id="Ewc-hd-6mI"/>
-                                            <constraint firstItem="bQC-cq-j3h" firstAttribute="top" secondItem="anB-tI-NZk" secondAttribute="bottom" constant="45" id="L9e-ED-xjd"/>
-                                            <constraint firstAttribute="trailing" secondItem="anB-tI-NZk" secondAttribute="trailing" constant="25" id="R5a-uu-1Hg"/>
+                                            <constraint firstItem="bQC-cq-j3h" firstAttribute="top" secondItem="anB-tI-NZk" secondAttribute="bottom" constant="19" id="L9e-ED-xjd"/>
+                                            <constraint firstAttribute="trailing" secondItem="anB-tI-NZk" secondAttribute="trailing" constant="39" id="R5a-uu-1Hg"/>
                                             <constraint firstItem="KPj-2P-uRY" firstAttribute="top" secondItem="zYE-cM-UDz" secondAttribute="top" constant="35" id="dbM-nX-suG"/>
                                             <constraint firstItem="KPj-2P-uRY" firstAttribute="leading" secondItem="zYE-cM-UDz" secondAttribute="leading" constant="59" id="jr1-KS-ICL"/>
-                                            <constraint firstItem="anB-tI-NZk" firstAttribute="centerX" secondItem="zYE-cM-UDz" secondAttribute="centerX" id="lOP-ih-TIs"/>
-                                            <constraint firstItem="anB-tI-NZk" firstAttribute="leading" secondItem="zYE-cM-UDz" secondAttribute="leading" constant="25" id="qLI-y9-QIN"/>
+                                            <constraint firstItem="anB-tI-NZk" firstAttribute="centerX" secondItem="zYE-cM-UDz" secondAttribute="centerX" constant="-7" id="lOP-ih-TIs"/>
+                                            <constraint firstItem="bQC-cq-j3h" firstAttribute="bottom" secondItem="anB-tI-NZk" secondAttribute="bottom" constant="96" id="ogZ-aG-dwh"/>
                                         </constraints>
                                     </view>
                                 </subviews>
                                 <constraints>
+                                    <constraint firstItem="zYE-cM-UDz" firstAttribute="top" secondItem="49e-3B-xkk" secondAttribute="top" id="3eD-tC-Gif"/>
                                     <constraint firstItem="zYE-cM-UDz" firstAttribute="width" secondItem="OKr-WA-qTX" secondAttribute="width" id="3k0-Ef-zQd"/>
                                     <constraint firstAttribute="trailing" secondItem="zYE-cM-UDz" secondAttribute="trailing" id="4rs-rG-9W2"/>
                                     <constraint firstItem="zYE-cM-UDz" firstAttribute="leading" secondItem="OKr-WA-qTX" secondAttribute="leading" id="55n-my-Xse"/>
+                                    <constraint firstItem="zYE-cM-UDz" firstAttribute="leading" secondItem="49e-3B-xkk" secondAttribute="leading" id="EhJ-zL-6zz"/>
+                                    <constraint firstItem="49e-3B-xkk" firstAttribute="bottom" secondItem="zYE-cM-UDz" secondAttribute="bottom" id="aAC-68-YlI"/>
                                     <constraint firstAttribute="bottom" secondItem="zYE-cM-UDz" secondAttribute="bottom" id="alq-IA-Yzh"/>
                                     <constraint firstItem="zYE-cM-UDz" firstAttribute="height" secondItem="OKr-WA-qTX" secondAttribute="height" priority="250" id="cex-Ek-tR4"/>
+                                    <constraint firstItem="49e-3B-xkk" firstAttribute="trailing" secondItem="zYE-cM-UDz" secondAttribute="trailing" id="qKX-Qf-ljD"/>
                                     <constraint firstItem="zYE-cM-UDz" firstAttribute="top" secondItem="OKr-WA-qTX" secondAttribute="top" id="rba-Iu-yS6"/>
                                 </constraints>
                                 <viewLayoutGuide key="contentLayoutGuide" id="49e-3B-xkk"/>
                                 <viewLayoutGuide key="frameLayoutGuide" id="zDn-v9-kpx"/>
                             </scrollView>
                         </subviews>
+                        <viewLayoutGuide key="safeArea" id="BRH-9d-vKx"/>
                         <constraints>
                             <constraint firstItem="OKr-WA-qTX" firstAttribute="top" secondItem="BRH-9d-vKx" secondAttribute="top" id="3br-LW-6zO"/>
+                            <constraint firstItem="BRH-9d-vKx" firstAttribute="bottom" secondItem="bQC-cq-j3h" secondAttribute="bottom" constant="326" id="4yH-Sn-iuY"/>
+                            <constraint firstItem="zYE-cM-UDz" firstAttribute="width" secondItem="v8n-Pb-qqu" secondAttribute="width" id="60c-OU-2pt"/>
                             <constraint firstItem="BRH-9d-vKx" firstAttribute="bottom" secondItem="OKr-WA-qTX" secondAttribute="bottom" id="LMz-2L-9wJ"/>
                             <constraint firstItem="OKr-WA-qTX" firstAttribute="leading" secondItem="BRH-9d-vKx" secondAttribute="leading" id="mUp-Bo-mEB"/>
                             <constraint firstItem="BRH-9d-vKx" firstAttribute="trailing" secondItem="OKr-WA-qTX" secondAttribute="trailing" id="zow-5v-dNX"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="BRH-9d-vKx"/>
                     </view>
                     <navigationItem key="navigationItem" id="sgP-mW-pw8"/>
                     <size key="freeformSize" width="375" height="1000"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dSO-yk-ehI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1279" y="-2187"/>
+            <point key="canvasLocation" x="-1279.2" y="-2187.7061469265368"/>
         </scene>
         <!--About WRAP Iowa-->
         <scene sceneID="mjL-Gx-weA">
@@ -1036,7 +732,7 @@ Following is a link to the article.</string>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" restorationIdentifier="ScrollAbout" translatesAutoresizingMaskIntoConstraints="NO" id="aLv-fC-gJF" userLabel="ScrollAboutView">
-                                <rect key="frame" x="0.0" y="44" width="375" height="956"/>
+                                <rect key="frame" x="0.0" y="64" width="375" height="936"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" restorationIdentifier="AboutContent" translatesAutoresizingMaskIntoConstraints="NO" id="6sC-OT-Sn2" userLabel="ContentAboutView">
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="962"/>
@@ -1054,7 +750,7 @@ Following is a link to the article.</string>
                                             </imageView>
                                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" textAlignment="natural" selectable="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sSc-Lh-mMA">
                                                 <rect key="frame" x="25" y="180" width="325" height="597"/>
-                                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                 <accessibility key="accessibilityConfiguration">
                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                     <bool key="isElement" value="NO"/>
@@ -1067,13 +763,13 @@ Following is a link to the article.</string>
 WRAP Iowa clients are often in crisis — affected by a life-changing illness or accident that leaves them unable to get back into their homes. A wheelchair ramp is usually the last thing on their minds. WRAP Iowa is here to help with a quick and affordable solution that enables our clients to regain their independence and quality of life.
 
 WRAP volunteers offer free labor and, if needed, help clients find financial assistance for building materials. WRAP Iowa also assist with repairs after the ramp is installed.</string>
-                                                <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                <color key="textColor" systemColor="labelColor"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                             </textView>
-                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AK-0q-h1N">
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8AK-0q-h1N">
                                                 <rect key="frame" x="53.5" y="809" width="268" height="36"/>
-                                                <color key="backgroundColor" systemColor="systemBlueColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                 <state key="normal" title="  Click to see the Website -&gt;  ">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -1083,7 +779,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </connections>
                                             </button>
                                         </subviews>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                         <constraints>
                                             <constraint firstAttribute="trailing" secondItem="sSc-Lh-mMA" secondAttribute="trailing" constant="25" id="47x-n8-2Ei"/>
                                             <constraint firstItem="FVT-Fj-HdI" firstAttribute="centerX" secondItem="6sC-OT-Sn2" secondAttribute="centerX" id="Cc3-kA-lH8"/>
@@ -1112,14 +808,14 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                 <viewLayoutGuide key="frameLayoutGuide" id="Wfb-xr-WSO"/>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="uOD-kR-ASe"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="aLv-fC-gJF" firstAttribute="leading" secondItem="uOD-kR-ASe" secondAttribute="leading" id="9Vo-fb-hzu"/>
                             <constraint firstItem="uOD-kR-ASe" firstAttribute="trailing" secondItem="aLv-fC-gJF" secondAttribute="trailing" id="FaK-TR-P2F"/>
                             <constraint firstItem="aLv-fC-gJF" firstAttribute="top" secondItem="uOD-kR-ASe" secondAttribute="top" id="Z8g-4X-dte"/>
                             <constraint firstItem="uOD-kR-ASe" firstAttribute="bottom" secondItem="aLv-fC-gJF" secondAttribute="bottom" id="wDA-tf-IZm"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="uOD-kR-ASe"/>
                     </view>
                     <navigationItem key="navigationItem" id="1bW-Yk-rYB"/>
                     <size key="freeformSize" width="375" height="1000"/>
@@ -1128,14 +824,477 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
             </objects>
             <point key="canvasLocation" x="-60" y="-2456"/>
         </scene>
+        <!--StairRiserCalculator-->
+        <scene sceneID="y7U-gt-jrb">
+            <objects>
+                <viewController title="StairRiserCalculator" id="NKg-zI-8aF" customClass="NewStairRiserCalculationView" customModule="WRAP_Iowa_Ramp_Design_Aid" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JPj-uQ-Tkg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="UGg-hn-bDl">
+                                <rect key="frame" x="0.0" y="64" width="381" height="603"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6r9-Tr-pgW">
+                                        <rect key="frame" x="0.0" y="0.0" width="381" height="1488"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68O-YP-AOE" userLabel="IconView">
+                                                <rect key="frame" x="0.0" y="0.0" width="381" height="138"/>
+                                                <subviews>
+                                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-256" translatesAutoresizingMaskIntoConstraints="NO" id="ZOV-I4-fpj">
+                                                        <rect key="frame" x="20" y="8" width="341" height="125"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="125" id="ra5-LI-Agw"/>
+                                                        </constraints>
+                                                    </imageView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="ZOV-I4-fpj" secondAttribute="bottom" constant="5" id="O3k-7C-AV7"/>
+                                                    <constraint firstItem="ZOV-I4-fpj" firstAttribute="top" secondItem="68O-YP-AOE" secondAttribute="top" constant="8" id="byb-wK-inj"/>
+                                                    <constraint firstItem="ZOV-I4-fpj" firstAttribute="leading" secondItem="68O-YP-AOE" secondAttribute="leading" constant="20" id="fvI-s2-FdN"/>
+                                                    <constraint firstAttribute="trailing" secondItem="ZOV-I4-fpj" secondAttribute="trailing" constant="20" id="sdE-TO-m9p"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMP-jB-Owb" userLabel="InstructionView">
+                                                <rect key="frame" x="0.0" y="143" width="381" height="470"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wwb-KX-9kW">
+                                                        <rect key="frame" x="20" y="10" width="341" height="450"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="450" id="av7-mF-uWS"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="450" id="vc9-3o-lyE"/>
+                                                        </constraints>
+                                                        <string key="text">This design aid is intended for use by WRAP Iowa approved wheelchair ramps where the decision has been made to facilitate accessibility through temporary steps. By indicating the floor-to-floor height, the app will calculate the minimum number of risers, riser heights and tread depths. The user may override the # of risers by entering a value in the override area. Use at your own risk.  If you have a specific number of risers that you wish to include in the calculation, you may enter that number in the input box directly below rather than having the app calculate the number of risers for you. By clicking on the override table, you will see a suggested number of risers for various heights.</string>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="wwb-KX-9kW" firstAttribute="leading" secondItem="aMP-jB-Owb" secondAttribute="leading" constant="20" id="45m-wg-Df2"/>
+                                                    <constraint firstItem="wwb-KX-9kW" firstAttribute="top" secondItem="aMP-jB-Owb" secondAttribute="top" constant="10" id="7RA-xC-qrY"/>
+                                                    <constraint firstAttribute="trailing" secondItem="wwb-KX-9kW" secondAttribute="trailing" constant="20" id="eM9-YH-BMP"/>
+                                                    <constraint firstAttribute="bottom" secondItem="wwb-KX-9kW" secondAttribute="bottom" constant="10" id="iDe-Aa-c4u"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0H-62-j8T" userLabel="OverrideTextView">
+                                                <rect key="frame" x="0.0" y="618" width="381" height="180"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EuE-WN-V4g">
+                                                        <rect key="frame" x="20" y="10" width="341" height="160"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="160" id="T1e-Rf-KYW"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="160" id="wi2-y8-YSg"/>
+                                                        </constraints>
+                                                        <string key="text">If the user has a specific number of risers to use in the calculation, that number can be entered in the box below. By clicking the button immediately below, the user is presentd with a table of recommended riser heights.</string>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="EuE-WN-V4g" secondAttribute="trailing" constant="20" id="SuQ-Ae-K7N"/>
+                                                    <constraint firstAttribute="bottom" secondItem="EuE-WN-V4g" secondAttribute="bottom" constant="10" id="TIq-eM-mzr"/>
+                                                    <constraint firstItem="EuE-WN-V4g" firstAttribute="leading" secondItem="T0H-62-j8T" secondAttribute="leading" constant="20" id="Uoz-oL-vof"/>
+                                                    <constraint firstItem="EuE-WN-V4g" firstAttribute="top" secondItem="T0H-62-j8T" secondAttribute="top" constant="10" id="f52-yW-vGS"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9os-Fw-9Gu" userLabel="ManualOverrideView">
+                                                <rect key="frame" x="0.0" y="803" width="381" height="60"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="wog-97-2VA">
+                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <subviews>
+                                                            <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPi-dj-YyR">
+                                                                <rect key="frame" x="0.0" y="3" width="92" height="34"/>
+                                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                            </textField>
+                                                            <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ar-tJ-CgO">
+                                                                <rect key="frame" x="149" y="2" width="192" height="36"/>
+                                                                <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                                <constraints>
+                                                                    <constraint firstAttribute="width" constant="192" id="YfF-hG-vQI"/>
+                                                                </constraints>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <state key="normal" title="View Override Table ">
+                                                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                </state>
+                                                                <connections>
+                                                                    <segue destination="Kkr-2M-v4u" kind="show" id="Rpm-gG-bV7"/>
+                                                                </connections>
+                                                            </button>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="sVc-WL-1n1"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="wog-97-2VA" secondAttribute="trailing" constant="20" id="My5-VI-SEC"/>
+                                                    <constraint firstItem="wog-97-2VA" firstAttribute="top" secondItem="9os-Fw-9Gu" secondAttribute="top" constant="10" id="OVj-cf-RU1"/>
+                                                    <constraint firstItem="wog-97-2VA" firstAttribute="leading" secondItem="9os-Fw-9Gu" secondAttribute="leading" constant="20" id="PND-XP-uQp"/>
+                                                    <constraint firstAttribute="bottom" secondItem="wog-97-2VA" secondAttribute="bottom" constant="10" id="dvd-1w-Xat"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUr-uY-tib" userLabel="EnterDataTextView">
+                                                <rect key="frame" x="0.0" y="868" width="381" height="170"/>
+                                                <subviews>
+                                                    <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F4v-m6-ehy">
+                                                        <rect key="frame" x="20" y="10" width="341" height="150"/>
+                                                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="150" id="71U-xS-VRu"/>
+                                                        </constraints>
+                                                        <string key="text">In the boxes below, enter the total vertical distance for the risers. The number of risers is typically one less than the number of treads. Seperately enter whole inches and fractional inches to the nearest 1/16th of an inch.</string>
+                                                        <color key="textColor" systemColor="labelColor"/>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                        <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                                    </textView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="F4v-m6-ehy" secondAttribute="bottom" constant="10" id="0NY-io-ern"/>
+                                                    <constraint firstAttribute="trailing" secondItem="F4v-m6-ehy" secondAttribute="trailing" constant="20" id="72n-aU-tRZ"/>
+                                                    <constraint firstItem="F4v-m6-ehy" firstAttribute="top" secondItem="cUr-uY-tib" secondAttribute="top" constant="10" id="alU-oV-BsL"/>
+                                                    <constraint firstItem="F4v-m6-ehy" firstAttribute="leading" secondItem="cUr-uY-tib" secondAttribute="leading" constant="20" id="oGq-ir-yFm"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlb-Nh-VdY" userLabel="EnterDataView">
+                                                <rect key="frame" x="0.0" y="1043" width="381" height="80"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="Dya-Vv-InA">
+                                                        <rect key="frame" x="20" y="20" width="341" height="40"/>
+                                                        <subviews>
+                                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="97" translatesAutoresizingMaskIntoConstraints="NO" id="Q5E-Hw-kSK">
+                                                                <rect key="frame" x="0.0" y="3" width="341" height="34"/>
+                                                                <subviews>
+                                                                    <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="FirstRiserHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="34" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="IQu-jt-Xxb" userLabel="FirstRiserHeightEntry">
+                                                                        <rect key="frame" x="0.0" y="0.0" width="122" height="34"/>
+                                                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                        <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                    </textField>
+                                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="22" translatesAutoresizingMaskIntoConstraints="NO" id="fri-VV-JxG">
+                                                                        <rect key="frame" x="219" y="0.0" width="122" height="34"/>
+                                                                        <subviews>
+                                                                            <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="SecondRiserHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RLk-E6-pIW" userLabel="SecondRiserHeightEntry">
+                                                                                <rect key="frame" x="0.0" y="0.0" width="50" height="34"/>
+                                                                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="50" id="vnj-QH-l80"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                                <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
+                                                                            </textField>
+                                                                            <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="/16" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Npb-lL-hCE">
+                                                                                <rect key="frame" x="72" y="0.0" width="50" height="34"/>
+                                                                                <accessibility key="accessibilityConfiguration">
+                                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                                </accessibility>
+                                                                                <constraints>
+                                                                                    <constraint firstAttribute="width" constant="50" id="xWk-sv-nNG"/>
+                                                                                </constraints>
+                                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                                <textInputTraits key="textInputTraits"/>
+                                                                            </textField>
+                                                                        </subviews>
+                                                                    </stackView>
+                                                                </subviews>
+                                                            </stackView>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="T2U-4t-KnX"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="Dya-Vv-InA" secondAttribute="bottom" constant="20" id="25e-KE-Eu5"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Dya-Vv-InA" secondAttribute="trailing" constant="20" id="abs-le-D9a"/>
+                                                    <constraint firstItem="Dya-Vv-InA" firstAttribute="leading" secondItem="hlb-Nh-VdY" secondAttribute="leading" constant="20" id="ufP-MZ-Wc7"/>
+                                                    <constraint firstItem="Dya-Vv-InA" firstAttribute="top" secondItem="hlb-Nh-VdY" secondAttribute="top" constant="20" id="wj8-lA-1oy"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsK-5O-3Ts" userLabel="CalculateButtonView">
+                                                <rect key="frame" x="0.0" y="1128" width="381" height="60"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bre-4U-Ojk">
+                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="7F3-5D-tKp"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                        <state key="normal" title="Calculate">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <action selector="StairRiserButton:" destination="NKg-zI-8aF" eventType="touchUpInside" id="uh4-FK-9RU"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="bre-4U-Ojk" secondAttribute="trailing" constant="20" id="SLA-fQ-kg8"/>
+                                                    <constraint firstItem="bre-4U-Ojk" firstAttribute="leading" secondItem="ZsK-5O-3Ts" secondAttribute="leading" constant="20" id="Tbl-7N-6ed"/>
+                                                    <constraint firstItem="bre-4U-Ojk" firstAttribute="top" secondItem="ZsK-5O-3Ts" secondAttribute="top" constant="10" id="e1f-qN-pFY"/>
+                                                    <constraint firstAttribute="bottom" secondItem="bre-4U-Ojk" secondAttribute="bottom" constant="10" id="y6o-ge-ZBo"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srX-NF-uDS" userLabel="RiserMinMaxView">
+                                                <rect key="frame" x="0.0" y="1193" width="381" height="60"/>
+                                                <subviews>
+                                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riser Min 4&quot; / Max 7 3/4&quot;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjK-xs-IhA">
+                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="JzR-s5-n3c"/>
+                                                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="vlv-FJ-7rd"/>
+                                                        </constraints>
+                                                        <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                        <nil key="textColor"/>
+                                                        <nil key="highlightedColor"/>
+                                                    </label>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="rjK-xs-IhA" firstAttribute="top" secondItem="srX-NF-uDS" secondAttribute="top" constant="10" id="E5T-G8-wEn"/>
+                                                    <constraint firstAttribute="bottom" secondItem="rjK-xs-IhA" secondAttribute="bottom" constant="10" id="Ept-5e-Fxo"/>
+                                                    <constraint firstAttribute="trailing" secondItem="rjK-xs-IhA" secondAttribute="trailing" constant="20" id="GR2-SM-HwX"/>
+                                                    <constraint firstItem="rjK-xs-IhA" firstAttribute="leading" secondItem="srX-NF-uDS" secondAttribute="leading" constant="20" id="LPg-0H-tvm"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diS-CK-da7" userLabel="Suggested#ofRisersView">
+                                                <rect key="frame" x="0.0" y="1258" width="381" height="35"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="117" translatesAutoresizingMaskIntoConstraints="NO" id="43Q-rg-jNy">
+                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Suggested # of Risers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBd-0H-UnB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" restorationIdentifier="Calc#ofRisers" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mq7-4K-h3R" userLabel="Calc#ofRisers">
+                                                                <rect key="frame" x="229" y="0.0" width="112" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="cPa-st-iWJ"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="43Q-rg-jNy" firstAttribute="top" secondItem="diS-CK-da7" secondAttribute="top" constant="10" id="9cW-a4-Ppc"/>
+                                                    <constraint firstItem="43Q-rg-jNy" firstAttribute="leading" secondItem="diS-CK-da7" secondAttribute="leading" constant="20" id="EiQ-pa-Xcb"/>
+                                                    <constraint firstAttribute="bottom" secondItem="43Q-rg-jNy" secondAttribute="bottom" constant="10" id="ajj-tV-7qJ"/>
+                                                    <constraint firstAttribute="trailing" secondItem="43Q-rg-jNy" secondAttribute="trailing" constant="20" id="sL7-1K-Zpj"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-P0-aub" userLabel="LowestLevelRiserHgtView">
+                                                <rect key="frame" x="0.0" y="1298" width="381" height="35"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="84" translatesAutoresizingMaskIntoConstraints="NO" id="Vel-hB-F6J">
+                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc-LL-RiserHeight" text="Lowestr Level Riser Height" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qty-2q-3dO" userLabel="Calc-LL-RiserHeight">
+                                                                <rect key="frame" x="0.0" y="0.0" width="128.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kx4-Zo-itC">
+                                                                <rect key="frame" x="212.5" y="0.0" width="128.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="guc-8G-uYk"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="Vel-hB-F6J" firstAttribute="leading" secondItem="3HB-P0-aub" secondAttribute="leading" constant="20" id="4D6-RR-pfG"/>
+                                                    <constraint firstItem="Vel-hB-F6J" firstAttribute="top" secondItem="3HB-P0-aub" secondAttribute="top" constant="10" id="LRV-4w-zdX"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Vel-hB-F6J" secondAttribute="bottom" constant="10" id="Ui8-wb-IJn"/>
+                                                    <constraint firstAttribute="trailing" secondItem="Vel-hB-F6J" secondAttribute="trailing" constant="20" id="mTn-9Z-NCe"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bM-ad-YhQ" userLabel="RemainingRiserHgtView">
+                                                <rect key="frame" x="0.0" y="1338" width="381" height="35"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="104" translatesAutoresizingMaskIntoConstraints="NO" id="b3i-Hr-5pY">
+                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remaining Riser Heights" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-cB-Fm2">
+                                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1n-ca-0NU">
+                                                                <rect key="frame" x="222.5" y="0.0" width="118.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="u42-Zt-kKB"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="bottom" secondItem="b3i-Hr-5pY" secondAttribute="bottom" constant="10" id="QKI-DA-hOp"/>
+                                                    <constraint firstAttribute="trailing" secondItem="b3i-Hr-5pY" secondAttribute="trailing" constant="20" id="RMO-QI-vA3"/>
+                                                    <constraint firstItem="b3i-Hr-5pY" firstAttribute="leading" secondItem="0bM-ad-YhQ" secondAttribute="leading" constant="20" id="YTY-FE-J0M"/>
+                                                    <constraint firstItem="b3i-Hr-5pY" firstAttribute="top" secondItem="0bM-ad-YhQ" secondAttribute="top" constant="10" id="b9j-BL-C97"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1A-yy-rtU" userLabel="2x12RequiredView">
+                                                <rect key="frame" x="0.0" y="1378" width="381" height="35"/>
+                                                <subviews>
+                                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="116" translatesAutoresizingMaskIntoConstraints="NO" id="Dnl-SE-02u">
+                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <subviews>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2x12 Length Required" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfp-0Y-4gB">
+                                                                <rect key="frame" x="0.0" y="0.0" width="112.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc2x10Length" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="I3K-da-vjY" userLabel="Calc2x10Length">
+                                                                <rect key="frame" x="228.5" y="0.0" width="112.5" height="15"/>
+                                                                <accessibility key="accessibilityConfiguration">
+                                                                    <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
+                                                                    <bool key="isElement" value="NO"/>
+                                                                </accessibility>
+                                                                <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
+                                                                <nil key="textColor"/>
+                                                                <nil key="highlightedColor"/>
+                                                            </label>
+                                                        </subviews>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="15" id="2l8-U8-p9X"/>
+                                                        </constraints>
+                                                    </stackView>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstAttribute="trailing" secondItem="Dnl-SE-02u" secondAttribute="trailing" constant="20" id="FWI-z4-HHe"/>
+                                                    <constraint firstAttribute="bottom" secondItem="Dnl-SE-02u" secondAttribute="bottom" constant="10" id="bBu-JU-5mz"/>
+                                                    <constraint firstItem="Dnl-SE-02u" firstAttribute="top" secondItem="N1A-yy-rtU" secondAttribute="top" constant="10" id="kop-2z-62z"/>
+                                                    <constraint firstItem="Dnl-SE-02u" firstAttribute="leading" secondItem="N1A-yy-rtU" secondAttribute="leading" constant="20" id="zOk-sg-xz9"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSQ-Ok-tLQ" userLabel="StairsIllustrationView">
+                                                <rect key="frame" x="0.0" y="1418" width="381" height="70"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5K8-nu-3nF">
+                                                        <rect key="frame" x="20" y="20" width="341" height="40"/>
+                                                        <color key="backgroundColor" systemColor="systemBlueColor"/>
+                                                        <constraints>
+                                                            <constraint firstAttribute="height" constant="40" id="EDy-vZ-3ky"/>
+                                                        </constraints>
+                                                        <state key="normal" title="View Stairs Illustration">
+                                                            <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </state>
+                                                        <connections>
+                                                            <segue destination="GOO-B8-SnU" kind="show" id="hq0-UV-CDk"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                                <constraints>
+                                                    <constraint firstItem="5K8-nu-3nF" firstAttribute="leading" secondItem="HSQ-Ok-tLQ" secondAttribute="leading" constant="20" id="Kq7-YF-BRI"/>
+                                                    <constraint firstItem="5K8-nu-3nF" firstAttribute="top" secondItem="HSQ-Ok-tLQ" secondAttribute="top" constant="20" id="TrZ-T2-rfy"/>
+                                                    <constraint firstAttribute="trailing" secondItem="5K8-nu-3nF" secondAttribute="trailing" constant="20" id="f6a-jM-7c4"/>
+                                                    <constraint firstAttribute="bottom" secondItem="5K8-nu-3nF" secondAttribute="bottom" constant="10" id="v6f-LV-RTD"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="bottom" secondItem="vFb-WR-z6E" secondAttribute="bottom" id="F2p-YT-c9P"/>
+                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="width" secondItem="f6B-6v-ONZ" secondAttribute="width" id="GgN-1r-qGv"/>
+                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="trailing" secondItem="vFb-WR-z6E" secondAttribute="trailing" id="OHN-Fg-07D"/>
+                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="top" secondItem="vFb-WR-z6E" secondAttribute="top" id="YxI-DA-cpo"/>
+                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="leading" secondItem="vFb-WR-z6E" secondAttribute="leading" id="jJA-KA-wB1"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="vFb-WR-z6E"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="f6B-6v-ONZ"/>
+                            </scrollView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="SWF-dr-0xD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="UGg-hn-bDl" firstAttribute="trailing" secondItem="SWF-dr-0xD" secondAttribute="trailing" id="VNP-dy-XEf"/>
+                            <constraint firstItem="UGg-hn-bDl" firstAttribute="bottom" secondItem="SWF-dr-0xD" secondAttribute="bottom" id="Vq0-i9-cEz"/>
+                            <constraint firstItem="UGg-hn-bDl" firstAttribute="leading" secondItem="SWF-dr-0xD" secondAttribute="leading" id="eOg-be-jOT"/>
+                            <constraint firstItem="UGg-hn-bDl" firstAttribute="top" secondItem="SWF-dr-0xD" secondAttribute="top" id="oaa-gY-m1x"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="aSW-pg-Shp"/>
+                    <connections>
+                        <outlet property="LowestRiserHgt" destination="kx4-Zo-itC" id="j7M-XN-jsZ"/>
+                        <outlet property="RemainingRiserHgt" destination="R1n-ca-0NU" id="vaB-zM-Z0T"/>
+                        <outlet property="RiserScrollView" destination="UGg-hn-bDl" id="TlB-aD-3bd"/>
+                        <outlet property="StepHgtNumerator" destination="RLk-E6-pIW" id="4kp-SX-gph"/>
+                        <outlet property="StepHgtWhole" destination="IQu-jt-Xxb" id="5Co-oR-V7E"/>
+                        <outlet property="TotalNumRisers" destination="mq7-4K-h3R" id="9qg-ud-0Cx"/>
+                        <outlet property="TwoxTenNeeded" destination="I3K-da-vjY" id="Zkk-84-llv"/>
+                        <outlet property="manualOverrideRisers" destination="bPi-dj-YyR" id="1Nk-GV-kLT"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="U1D-J2-J0V" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1231.2" y="-4117.6911544227887"/>
+        </scene>
     </scenes>
-    <inferredMetricsTieBreakers>
-        <segue reference="3O1-pH-dT0"/>
-    </inferredMetricsTieBreakers>
     <resources>
         <image name="Icon-256" width="256" height="117"/>
         <image name="Override Illustration" width="267" height="408"/>
         <image name="Stair Riser Illustration" width="845" height="412"/>
         <image name="Stringer Cut Angle Illustration" width="445" height="113"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemBlueColor">
+            <color red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
     </resources>
 </document>

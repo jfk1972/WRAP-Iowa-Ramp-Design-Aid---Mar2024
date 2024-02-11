@@ -11,7 +11,8 @@ import Foundation
 
 // calculate the number of risers needed and the instructions for cuttiomg from a 2x12
 
-class StepCalculatorViewController: UIViewController, UITextFieldDelegate
+//class StepCalculatorViewController: UIViewController, UITextFieldDelegate
+class NewStairRiserCalculationView: UIViewController, UITextFieldDelegate
 {
     @IBOutlet weak var StepHgtWhole: UITextField!
     @IBOutlet weak var StepHgtNumerator: UITextField!
@@ -219,3 +220,4 @@ class StepCalculatorViewController: UIViewController, UITextFieldDelegate
         
     }
 }
+
