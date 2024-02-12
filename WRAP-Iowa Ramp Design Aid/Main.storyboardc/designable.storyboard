@@ -465,7 +465,7 @@ Use the buttons below to select the functionality that you wish to exercise or 
                                                     <constraint firstAttribute="height" constant="44" id="VbV-No-aO8"/>
                                                 </constraints>
                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="15"/>
-                                                <state key="normal" title="Update">
+                                                <state key="normal" title="Calculate">
                                                     <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 </state>
                                                 <connections>
@@ -836,13 +836,13 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                 <rect key="frame" x="0.0" y="64" width="381" height="603"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="5" translatesAutoresizingMaskIntoConstraints="NO" id="6r9-Tr-pgW">
-                                        <rect key="frame" x="0.0" y="0.0" width="381" height="1488"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="422" height="1488"/>
                                         <subviews>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="68O-YP-AOE" userLabel="IconView">
-                                                <rect key="frame" x="0.0" y="0.0" width="381" height="138"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="422" height="138"/>
                                                 <subviews>
                                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Icon-256" translatesAutoresizingMaskIntoConstraints="NO" id="ZOV-I4-fpj">
-                                                        <rect key="frame" x="20" y="8" width="341" height="125"/>
+                                                        <rect key="frame" x="20" y="8" width="382" height="125"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="125" id="ra5-LI-Agw"/>
                                                         </constraints>
@@ -856,10 +856,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aMP-jB-Owb" userLabel="InstructionView">
-                                                <rect key="frame" x="0.0" y="143" width="381" height="470"/>
+                                                <rect key="frame" x="0.0" y="143" width="422" height="470"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="wwb-KX-9kW">
-                                                        <rect key="frame" x="20" y="10" width="341" height="450"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="450"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="450" id="av7-mF-uWS"/>
@@ -879,10 +879,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="T0H-62-j8T" userLabel="OverrideTextView">
-                                                <rect key="frame" x="0.0" y="618" width="381" height="180"/>
+                                                <rect key="frame" x="0.0" y="618" width="422" height="180"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="EuE-WN-V4g">
-                                                        <rect key="frame" x="20" y="10" width="341" height="160"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="160"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="160" id="T1e-Rf-KYW"/>
@@ -902,19 +902,19 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9os-Fw-9Gu" userLabel="ManualOverrideView">
-                                                <rect key="frame" x="0.0" y="803" width="381" height="60"/>
+                                                <rect key="frame" x="0.0" y="803" width="422" height="60"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="57" translatesAutoresizingMaskIntoConstraints="NO" id="wog-97-2VA">
-                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="40"/>
                                                         <subviews>
                                                             <textField opaque="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="751" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter Value" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="bPi-dj-YyR">
-                                                                <rect key="frame" x="0.0" y="3" width="92" height="34"/>
+                                                                <rect key="frame" x="0.0" y="3" width="133" height="34"/>
                                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                             </textField>
                                                             <button opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5ar-tJ-CgO">
-                                                                <rect key="frame" x="149" y="2" width="192" height="36"/>
+                                                                <rect key="frame" x="190" y="2" width="192" height="36"/>
                                                                 <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="width" constant="192" id="YfF-hG-vQI"/>
@@ -941,10 +941,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="cUr-uY-tib" userLabel="EnterDataTextView">
-                                                <rect key="frame" x="0.0" y="868" width="381" height="170"/>
+                                                <rect key="frame" x="0.0" y="868" width="422" height="170"/>
                                                 <subviews>
                                                     <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="F4v-m6-ehy">
-                                                        <rect key="frame" x="20" y="10" width="341" height="150"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="150"/>
                                                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="150" id="71U-xS-VRu"/>
@@ -963,7 +963,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hlb-Nh-VdY" userLabel="EnterDataView">
-                                                <rect key="frame" x="0.0" y="1043" width="381" height="80"/>
+                                                <rect key="frame" x="0.0" y="1043" width="422" height="80"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillProportionally" alignment="center" spacing="103" translatesAutoresizingMaskIntoConstraints="NO" id="Dya-Vv-InA">
                                                         <rect key="frame" x="20" y="20" width="341" height="40"/>
@@ -983,9 +983,6 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                                             <textField opaque="NO" contentMode="scaleToFill" restorationIdentifier="SecondRiserHeightEntry" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="5" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RLk-E6-pIW" userLabel="SecondRiserHeightEntry">
                                                                                 <rect key="frame" x="0.0" y="0.0" width="50" height="34"/>
                                                                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                                                                <constraints>
-                                                                                    <constraint firstAttribute="width" constant="50" id="vnj-QH-l80"/>
-                                                                                </constraints>
                                                                                 <fontDescription key="fontDescription" name="AvenirNext-DemiBold" family="Avenir Next" pointSize="17"/>
                                                                                 <textInputTraits key="textInputTraits" keyboardType="numberPad"/>
                                                                             </textField>
@@ -1012,16 +1009,15 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </subviews>
                                                 <constraints>
                                                     <constraint firstAttribute="bottom" secondItem="Dya-Vv-InA" secondAttribute="bottom" constant="20" id="25e-KE-Eu5"/>
-                                                    <constraint firstAttribute="trailing" secondItem="Dya-Vv-InA" secondAttribute="trailing" constant="20" id="abs-le-D9a"/>
-                                                    <constraint firstItem="Dya-Vv-InA" firstAttribute="leading" secondItem="hlb-Nh-VdY" secondAttribute="leading" constant="20" id="ufP-MZ-Wc7"/>
+                                                    <constraint firstItem="Dya-Vv-InA" firstAttribute="leading" secondItem="hlb-Nh-VdY" secondAttribute="leading" constant="20" id="kQA-BH-vF4"/>
                                                     <constraint firstItem="Dya-Vv-InA" firstAttribute="top" secondItem="hlb-Nh-VdY" secondAttribute="top" constant="20" id="wj8-lA-1oy"/>
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZsK-5O-3Ts" userLabel="CalculateButtonView">
-                                                <rect key="frame" x="0.0" y="1128" width="381" height="60"/>
+                                                <rect key="frame" x="0.0" y="1128" width="422" height="60"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bre-4U-Ojk">
-                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="40"/>
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="7F3-5D-tKp"/>
@@ -1043,10 +1039,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="srX-NF-uDS" userLabel="RiserMinMaxView">
-                                                <rect key="frame" x="0.0" y="1193" width="381" height="60"/>
+                                                <rect key="frame" x="0.0" y="1193" width="422" height="60"/>
                                                 <subviews>
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Riser Min 4&quot; / Max 7 3/4&quot;" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rjK-xs-IhA">
-                                                        <rect key="frame" x="20" y="10" width="341" height="40"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="40"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="JzR-s5-n3c"/>
                                                             <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="40" id="vlv-FJ-7rd"/>
@@ -1064,13 +1060,13 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="diS-CK-da7" userLabel="Suggested#ofRisersView">
-                                                <rect key="frame" x="0.0" y="1258" width="381" height="35"/>
+                                                <rect key="frame" x="0.0" y="1258" width="422" height="35"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="117" translatesAutoresizingMaskIntoConstraints="NO" id="43Q-rg-jNy">
-                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="15"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="249" verticalHuggingPriority="251" text="Suggested # of Risers" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cBd-0H-UnB">
-                                                                <rect key="frame" x="0.0" y="0.0" width="112" height="15"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="132.5" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1080,7 +1076,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" restorationIdentifier="Calc#ofRisers" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mq7-4K-h3R" userLabel="Calc#ofRisers">
-                                                                <rect key="frame" x="229" y="0.0" width="112" height="15"/>
+                                                                <rect key="frame" x="249.5" y="0.0" width="132.5" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1103,13 +1099,13 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="3HB-P0-aub" userLabel="LowestLevelRiserHgtView">
-                                                <rect key="frame" x="0.0" y="1298" width="381" height="35"/>
+                                                <rect key="frame" x="0.0" y="1298" width="422" height="35"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="84" translatesAutoresizingMaskIntoConstraints="NO" id="Vel-hB-F6J">
-                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="15"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc-LL-RiserHeight" text="Lowestr Level Riser Height" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qty-2q-3dO" userLabel="Calc-LL-RiserHeight">
-                                                                <rect key="frame" x="0.0" y="0.0" width="128.5" height="15"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="149" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1119,7 +1115,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kx4-Zo-itC">
-                                                                <rect key="frame" x="212.5" y="0.0" width="128.5" height="15"/>
+                                                                <rect key="frame" x="233" y="0.0" width="149" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                 </accessibility>
@@ -1141,13 +1137,13 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0bM-ad-YhQ" userLabel="RemainingRiserHgtView">
-                                                <rect key="frame" x="0.0" y="1338" width="381" height="35"/>
+                                                <rect key="frame" x="0.0" y="1338" width="422" height="35"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="104" translatesAutoresizingMaskIntoConstraints="NO" id="b3i-Hr-5pY">
-                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="15"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remaining Riser Heights" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ehe-cB-Fm2">
-                                                                <rect key="frame" x="0.0" y="0.0" width="118.5" height="15"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="139" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1157,7 +1153,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="R1n-ca-0NU">
-                                                                <rect key="frame" x="222.5" y="0.0" width="118.5" height="15"/>
+                                                                <rect key="frame" x="243" y="0.0" width="139" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1180,13 +1176,13 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="N1A-yy-rtU" userLabel="2x12RequiredView">
-                                                <rect key="frame" x="0.0" y="1378" width="381" height="35"/>
+                                                <rect key="frame" x="0.0" y="1378" width="422" height="35"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" alignment="center" spacing="116" translatesAutoresizingMaskIntoConstraints="NO" id="Dnl-SE-02u">
-                                                        <rect key="frame" x="20" y="10" width="341" height="15"/>
+                                                        <rect key="frame" x="20" y="10" width="382" height="15"/>
                                                         <subviews>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2x12 Length Required" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cfp-0Y-4gB">
-                                                                <rect key="frame" x="0.0" y="0.0" width="112.5" height="15"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="133" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1196,7 +1192,7 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" restorationIdentifier="Calc2x10Length" text="Label" textAlignment="right" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" minimumFontSize="12" translatesAutoresizingMaskIntoConstraints="NO" id="I3K-da-vjY" userLabel="Calc2x10Length">
-                                                                <rect key="frame" x="228.5" y="0.0" width="112.5" height="15"/>
+                                                                <rect key="frame" x="249" y="0.0" width="133" height="15"/>
                                                                 <accessibility key="accessibilityConfiguration">
                                                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
                                                                     <bool key="isElement" value="NO"/>
@@ -1219,10 +1215,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                                 </constraints>
                                             </view>
                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="HSQ-Ok-tLQ" userLabel="StairsIllustrationView">
-                                                <rect key="frame" x="0.0" y="1418" width="381" height="70"/>
+                                                <rect key="frame" x="0.0" y="1418" width="422" height="70"/>
                                                 <subviews>
                                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5K8-nu-3nF">
-                                                        <rect key="frame" x="20" y="20" width="341" height="40"/>
+                                                        <rect key="frame" x="20" y="20" width="382" height="40"/>
                                                         <color key="backgroundColor" systemColor="systemBlueColor"/>
                                                         <constraints>
                                                             <constraint firstAttribute="height" constant="40" id="EDy-vZ-3ky"/>
@@ -1247,7 +1243,6 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="6r9-Tr-pgW" firstAttribute="bottom" secondItem="vFb-WR-z6E" secondAttribute="bottom" id="F2p-YT-c9P"/>
-                                    <constraint firstItem="6r9-Tr-pgW" firstAttribute="width" secondItem="f6B-6v-ONZ" secondAttribute="width" id="GgN-1r-qGv"/>
                                     <constraint firstItem="6r9-Tr-pgW" firstAttribute="trailing" secondItem="vFb-WR-z6E" secondAttribute="trailing" id="OHN-Fg-07D"/>
                                     <constraint firstItem="6r9-Tr-pgW" firstAttribute="top" secondItem="vFb-WR-z6E" secondAttribute="top" id="YxI-DA-cpo"/>
                                     <constraint firstItem="6r9-Tr-pgW" firstAttribute="leading" secondItem="vFb-WR-z6E" secondAttribute="leading" id="jJA-KA-wB1"/>
@@ -1259,10 +1254,10 @@ WRAP volunteers offer free labor and, if needed, help clients find financial ass
                         <viewLayoutGuide key="safeArea" id="SWF-dr-0xD"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="UGg-hn-bDl" firstAttribute="trailing" secondItem="SWF-dr-0xD" secondAttribute="trailing" id="VNP-dy-XEf"/>
+                            <constraint firstItem="UGg-hn-bDl" firstAttribute="leading" secondItem="SWF-dr-0xD" secondAttribute="leading" id="THw-nb-akM"/>
                             <constraint firstItem="UGg-hn-bDl" firstAttribute="bottom" secondItem="SWF-dr-0xD" secondAttribute="bottom" id="Vq0-i9-cEz"/>
-                            <constraint firstItem="UGg-hn-bDl" firstAttribute="leading" secondItem="SWF-dr-0xD" secondAttribute="leading" id="eOg-be-jOT"/>
                             <constraint firstItem="UGg-hn-bDl" firstAttribute="top" secondItem="SWF-dr-0xD" secondAttribute="top" id="oaa-gY-m1x"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="UGg-hn-bDl" secondAttribute="trailing" constant="-22" id="u8L-Vb-LRj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="aSW-pg-Shp"/>
